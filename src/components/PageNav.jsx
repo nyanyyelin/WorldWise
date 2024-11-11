@@ -6,7 +6,7 @@ const PageNav = () => {
     <NavLink> is the same as <Link> 
     except it gets an extra attribute: class="active"
     so that we can style currently active <NavLink> 
-*/
+  */
   return (
     <nav className={styles.nav}>
       <Logo />
