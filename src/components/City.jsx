@@ -21,7 +21,6 @@ const City = () => {
     const lat = searchParams.get("lat");
     const lng = searchParams.get("lng");
   */
-  console.log(`ID is ${id}`);
   const { getCity, currentCity, isLoading } = useCitiesContext();
 
   // use function keyword or () => () => getCity(id);
