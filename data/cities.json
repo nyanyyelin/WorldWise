@@ -23,6 +23,42 @@
         "lat": "42.52069952914966",
         "lng": "1.2744140625000002"
       }
+    },
+    {
+      "id": "1a92",
+      "cityName": "Zariecie",
+      "country": "Slovakia",
+      "emoji": "🇸🇰",
+      "notes": "",
+      "date": "2024-11-22T19:26:07.934Z",
+      "position": {
+        "lat": "49.167338606291075",
+        "lng": "18.215332031250004"
+      }
+    },
+    {
+      "id": "8785",
+      "cityName": "Oroville",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "notes": "",
+      "date": "2024-12-20T19:09:23.243Z",
+      "position": {
+        "lat": "39.52099229357195",
+        "lng": "-121.44287109375001"
+      }
+    },
+    {
+      "id": "efbc",
+      "cityName": "Allin/Allin",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "date": "2024-12-20T21:14:57.442Z",
+      "position": {
+        "lat": "42.73087427928485",
+        "lng": "-2.0654296875000004"
+      }
     }
   ]
 }

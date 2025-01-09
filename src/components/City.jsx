@@ -17,15 +17,16 @@ const formatDate = (date) => {
 const City = () => {
   const { id } = useParams();
   /* 
+    - HOW TO ACCESS QUERY STRING
     const [searchParams, setSearchParams] = useSearchParams();
     const lat = searchParams.get("lat");
     const lng = searchParams.get("lng");
   */
   const { getCity, currentCity, isLoading } = useCitiesContext();
 
-  // use function keyword or () => () => getCity(id);
-  // Using () => will make React think it's a clean up function
-  useEffect(() => () => getCity(id), [id]);
+  useEffect(() => {
+    getCity(id);
+  }, [id, getCity]);
 
   const { emoji, cityName, date, notes } = currentCity;
   if (isLoading) return <Spinner />;

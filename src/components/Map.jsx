@@ -82,9 +82,9 @@ const ChangeCenter = ({ position }) => {
   return null;
 };
 
+// DETECT CLICKS
 const DetectClicks = () => {
   const navigate = useNavigate();
-
   useMapEvent({
     click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
